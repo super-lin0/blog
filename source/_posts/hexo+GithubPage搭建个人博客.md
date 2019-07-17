@@ -14,19 +14,19 @@ tags: [hexo, GitHub Pages]
 
 <!-- more -->
 
-### 1、效果
+### 效果
 
 首先来看最终的效果：
 
 ![](https://raw.githubusercontent.com/super-lin0/pic/master/20190717203359.png)
 
-### 2、Hexo
+### Hexo
 
 然后我们来看看什么是`Hexo`![](https://raw.githubusercontent.com/super-lin0/pic/master/20190717203241.png)
 
 - Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 [Markdown](http://daringfireball.net/projects/markdown/)（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。
 
-### 3、Hexo 安装及使用
+### Hexo 安装及使用
 
 ```
 yarn global add hexo-cli
@@ -40,7 +40,7 @@ hexo s	// 本地控制台启动
 
 - 在安装 Hexo 前需要安装 Nodejs、Git，在此不再赘述。请自行百度
 
-### 4、结合 GitHub Pages
+### 结合 GitHub Pages
 
 打开刚才新建的文件夹内，找到\_config.yml 修改以下内容：
 
