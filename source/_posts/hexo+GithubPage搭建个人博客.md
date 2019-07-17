@@ -4,7 +4,13 @@ date: 2019-07-17 20:01:16
 tags: [hexo, GitHub Pages]
 ---
 
-本文介绍了如何根据 Hexo+GitHub Pages 来搭建个人的博客
+<center>
+  本文介绍了如何根据 Hexo+GitHub Pages 来搭建个人的博客
+<center>
+</br>
+</center>
+  标签：#hexo, #GitHub Pages
+</center>
 
 <!-- more -->
 
