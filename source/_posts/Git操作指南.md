@@ -201,3 +201,7 @@ PM 在 gitlab 上查看提交和代码修改情况，确认无误后，确认将
 ​ https://www.jianshu.com/p/ad6dad6f625f
 <br>
 ​ https://open-doc.dingtalk.com/docs/doc.htm?spm=a219a.7629140.0.0.7M7pzQ&treeId=257&articleId=105736&docType=1#s0
+
+<p style="text-align: center;"><span style="font-size:18px;"><strong><span style="color:#ff00;"><span style="color:#ff0000;">友情提示：</span></span>请尊重作者劳动成果，如需转载本博客文章请注明出处！谢谢合作！</strong></span></p>
+
+<p align="center"><strong><span style="font-size:18px;">【作者：吴林&nbsp;&nbsp;</span></strong><a target="_blank" href="https://super-lin0.github.io/"><strong><span style="font-size:18px;">https://super-lin0.github.io/</span></strong></a><strong>】</span></strong></p>
