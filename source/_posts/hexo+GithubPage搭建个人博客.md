@@ -33,7 +33,7 @@ yarn global add hexo-cli
 hexo -v // 查看hexo-cli版本以及是否安装成功
 hexo init <folder> && cd <folder>	// 创建项目以及初始化
 yarn	// 安装依赖
-hexo g	// 发布到自己本地查看效果
+hexo g	// 发布
 hexo deploy	// 部署到远程
 hexo s	// 本地控制台启动
 ```
