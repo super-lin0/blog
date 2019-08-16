@@ -1,6 +1,6 @@
 ---
-title: Redux源码系列--applyMiddleware
-date: 2019-08-16 19:12:16
+title: Redux源码系列三--applyMiddleware
+date: 2019-08-16 19:43:16
 tags: [Redux, Source code analysis]
 ---
 
@@ -95,7 +95,7 @@ export default function applyMiddleware(...middlewares) {
 
 ### 参考文献：
 
-1、<p style="text-align: left"><https://github.com/ecmadao/Coding-Guide/blob/master/Notes/React/Redux/Redux%E5%85%A5%E5%9D%91%E8%BF%9B%E9%98%B6-%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90.md#createstore></p>
+1、Redux: <p style="text-align: left"><https://github.com/ecmadao/Coding-Guide/blob/master/Notes/React/Redux/Redux%E5%85%A5%E5%9D%91%E8%BF%9B%E9%98%B6-%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90.md#createstore></p>
 
 2、《React 状态管理与同构实战》
 
