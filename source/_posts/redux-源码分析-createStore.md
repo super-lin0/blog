@@ -1,5 +1,5 @@
 ---
-title: Redux源码分析之-createStore
+title: Redux源码系列--createStore
 date: 2019-08-16 15:39:16
 tags: [Redux, Source code analysis]
 ---
