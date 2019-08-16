@@ -257,11 +257,11 @@ export default function combineReducers(reducers) {
 
 ### 参考文献：
 
-1、Redux: <p style="text-align: left"><https://github.com/ecmadao/Coding-Guide/blob/master/Notes/React/Redux/Redux%E5%85%A5%E5%9D%91%E8%BF%9B%E9%98%B6-%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90.md#createstore></p>
+1、<a href="http://cn.redux.js.org/docs/api/combineReducers.html">Redux 官方文档</a>
 
-2、《React 状态管理与同构实战》
+2、<a href="https://github.com/ecmadao/Coding-Guide/blob/master/Notes/React/Redux/Redux%E5%85%A5%E5%9D%91%E8%BF%9B%E9%98%B6-%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90.md#combinereducers">Redux 入坑进阶-源码解析</a>
 
-3、<http://cn.redux.js.org/docs/api/createStore.html>
+3、《React 状态管理与同构实战》
 
 <p style="text-align: center;"><span style="font-size:18px;"><strong><span style="color:#ff00;"><span style="color:#ff0000;">友情提示：</span></span>请尊重作者劳动成果，如需转载本博客文章请注明出处！谢谢合作！</strong></span></p>
 
