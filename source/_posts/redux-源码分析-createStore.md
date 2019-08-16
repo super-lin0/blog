@@ -38,9 +38,13 @@ export default createStore(reducer, {}, storeEnhancers);
 ### 源码解读
 
 ```
+import $$observable from 'symbol-observable'
+
+import ActionTypes from './utils/actionTypes'
+import isPlainObject from './utils/isPlainObject'
 
 /**
- * 创建一个Redux store用来存储状态树
+ * 创建一个Redux store用来存储所有的state
  * Creates a Redux store that holds the state tree.
  *
  * State只读原则: 不能够直接改变state值，只能够通过 `dispatch`方法来更改store状态树
@@ -56,19 +60,25 @@ export default createStore(reducer, {}, storeEnhancers);
  * @param {Function} reducer A function that returns the next state tree, given
  * the current state tree and the action to handle.
  *
- * 容器初始状态(可选参数)
+ * 容器初始状态(可选参数):
+ * 初始时的 state。 在同构应用中，你可以决定是否把服务端传来的 state 水合（hydrate）后传给它，
+ * 或者从之前保存的用户会话中恢复一个传给它。如果你使用 combineReducers 创建 reducer，
+ * 它必须是一个普通对象，与传入的 keys 保持同样的结构。否则，你可以自由传入任何 reducer 可理解的内容。
  * @param {any} [preloadedState] The initial state. You may optionally specify it
  * to hydrate the state from the server in universal apps, or to restore a
  * previously serialized user session.
  * If you use `combineReducers` to produce the root reducer function, this must be
  * an object with the same shape as `combineReducers` keys.
  *
- * enhancer增强器：
+ * enhancer增强器(可选参数)：Store enhancer 是一个组合 store creator 的高阶函数，
+ * 返回一个新的强化过的 store creator。这与 middleware 相似，它也允许你通过复合函数改变 store 接口。
  * @param {Function} [enhancer] The store enhancer. You may optionally specify it
  * to enhance the store with third-party capabilities such as middleware,
  * time travel, persistence, etc. The only store enhancer that ships with Redux
  * is `applyMiddleware()`.
  *
+ * store: 保存了应用所有 state 的对象。改变 state 的惟一方法是 dispatch action。
+ * 你也可以 subscribe 监听 state 的变化，然后更新 UI。
  * @returns {Store} A Redux store that lets you read the state, dispatch actions
  * and subscribe to changes.
  */
@@ -346,7 +356,8 @@ export default function createStore(reducer, preloadedState, enhancer) {
   // reducer returns their initial state. This effectively populates
   // the initial state tree.
   /**
-   * 实际应用中，createStore被调用后，Redux就会设置一个初始的空状态
+   * 当 store 创建后，Redux 会 dispatch 一个 action 到 reducer 上，
+   * 来用初始的 state 来填充 store。你不需要处理这个 action。
    */
   dispatch({ type: ActionTypes.INIT })
 
@@ -366,6 +377,8 @@ export default function createStore(reducer, preloadedState, enhancer) {
 1、<p style="text-align: left"><https://github.com/ecmadao/Coding-Guide/blob/master/Notes/React/Redux/Redux%E5%85%A5%E5%9D%91%E8%BF%9B%E9%98%B6-%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90.md#createstore></p>
 
 2、《React 状态管理与同构实战》
+
+3、<http://cn.redux.js.org/docs/api/createStore.html>
 
 <p style="text-align: center;"><span style="font-size:18px;"><strong><span style="color:#ff00;"><span style="color:#ff0000;">友情提示：</span></span>请尊重作者劳动成果，如需转载本博客文章请注明出处！谢谢合作！</strong></span></p>
 
