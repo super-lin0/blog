@@ -2,7 +2,7 @@
 title: JavaScript this 的用法
 date: 2019-08-20 16:29:15
 updateed: 2019-08-20 16:29:15
-tags: [JavaScript]
+tags: [javascript]
 ---
 
 <center>
@@ -10,7 +10,7 @@ tags: [JavaScript]
 <center>
 </br>
 </center>
-  标签：#JavaScript
+  标签：#javascript
 </center>
 
 <!-- more -->
