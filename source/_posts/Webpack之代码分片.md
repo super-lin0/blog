@@ -150,7 +150,7 @@ if(condition) {
 
 本文我们了解了 Webpack 代码分片的几种方式：合理的规划入口，使用 SplitChunks，以及资源异步加载。借助这些方法我们可以有效地缩小资源体积，同时更好的利用缓存，给用户更友好的体验。
 
-### 参考文献：
+### 参考文献
 
 1、<a href="https://www.webpackjs.com/plugins/split-chunks-plugin/#defaults" >SplitChunksPlugin</a>
 

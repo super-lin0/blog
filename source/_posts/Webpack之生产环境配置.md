@@ -252,9 +252,19 @@ source map 对于追溯线上问题十分重要，但也存在安全隐患。通
 
 Webpack 4 提供了"mode: 'production'"的配置项，通过它可以节省很多生产环境下的特定代码，让配置文件更加的简洁
 
-### 参考文献：
+## 参考文献
 
 1、《Webpack 实战入门、进阶与调优）》- 居玉皓
+
+2、<a href="https://www.webpackjs.com/concepts/mode/" >Webpack 模式</a>
+
+3、<a href="https://www.webpackjs.com/plugins/define-plugin/" >Webpack DefinePlugin</a>
+
+4、<a href="https://www.webpackjs.com/configuration/devtool/" >Webpack devtool</a>
+
+5、<a href="https://www.webpackjs.com/plugins/extract-text-webpack-plugin/" >Webpack extract-text-webpack-plugin</a>
+
+6、<a href="https://www.webpackjs.com/plugins/html-webpack-plugin/" >Webpack html-webpack-plugin</a>
 
 <p style="text-align: center;"><span style="font-size:18px;"><strong><span style="color:#ff00;"><span style="color:#ff0000;">友情提示：</span></span>请尊重作者劳动成果，如需转载本博客文章请注明出处！谢谢合作！</strong></span></p>
 
