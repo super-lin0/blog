@@ -2,7 +2,7 @@
 title: Javascript之Tab页签切换
 date: 2017-11-13 19:34:05
 updateed: 2017-11-13 19:34:05
-tags: [Javascript, Tab]
+tags: [JavaScript, Tab]
 ---
 
 <center>
@@ -11,7 +11,7 @@ tags: [Javascript, Tab]
 <center>
 </br>
 </center>
-  标签：#Javascript, #Tab
+  标签：#JavaScript, #Tab
 </center>
 
 <!-- more -->

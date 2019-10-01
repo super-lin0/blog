@@ -2,7 +2,7 @@
 title: Webpack之代码分片
 date: 2019-09-30 15:24:15
 updateed: 2019-09-30 15:24:15
-tags: [Javascript, Webpack]
+tags: [JavaScript, Webpack]
 comments: true
 ---
 
@@ -11,7 +11,7 @@ comments: true
 <center>
 </br>
 </center>
-  标签：#Javascript, #Webpack
+  标签：#JavaScript, #Webpack
 </center>
 
 <!-- more -->

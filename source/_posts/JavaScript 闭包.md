@@ -2,7 +2,7 @@
 title: JavaScript 闭包
 date: 2019-08-17 16:09:15
 updateed: 2019-08-17 16:09:15
-tags: [Javascript]
+tags: [JavaScript]
 ---
 
 <center>
@@ -10,7 +10,7 @@ tags: [Javascript]
 <center>
 </br>
 </center>
-  标签：#Javascript
+  标签：#JavaScript
 </center>
 
 <!-- more -->

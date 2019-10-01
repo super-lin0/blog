@@ -3,7 +3,7 @@ title: NPM发布独立组件
 
 date: 2019-07-17 14:43:00
 
-tags: [npm, javascript]
+tags: [npm, JavaScript]
 ---
 
 <center>
@@ -11,7 +11,7 @@ tags: [npm, javascript]
 <center>
 </br>
 </center>
-标签：#npm, #javascript
+标签：#npm, #JavaScript
 </center>
 
 <!-- more -->

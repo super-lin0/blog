@@ -2,7 +2,7 @@
 title: Html5之Canvas小时钟程序
 date: 2016-12-16 20:23:12
 updateed: 2016-12-16 20:23:12
-tags: [Javascript, html5]
+tags: [JavaScript, html5]
 ---
 
 <center>
@@ -11,7 +11,7 @@ tags: [Javascript, html5]
 <center>
 </br>
 </center>
-  标签：#Javascript, #html5
+  标签：#JavaScript, #html5
 </center>
 
 <!-- more -->
