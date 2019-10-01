@@ -7,7 +7,7 @@ comments: true
 ---
 
 <center>
-  本文总结了 JavaScript 中 this 的一些概念以及常见问题及解答
+  本文总结了利用 Webpack 来实现代码分片的几种方式
 <center>
 </br>
 </center>
