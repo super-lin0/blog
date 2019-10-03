@@ -16,6 +16,8 @@ comments: true
 
 <!-- more -->
 
+![](https://raw.githubusercontent.com/super-lin0/pic/master/img/20191003152823.png)
+
 ### 前言
 
 实现高性能应用其中重要的一点就是尽可能地让用户每次只加载必要的资源，优先级不太高的的资源则采用延迟加载等技术渐进式地获取。代码分片（Code Spliting）是 Webpack 作为打包工具所特有的一项技术，通过这项技术，我们可以把代码按照特定的形式进行拆分，使用户不必一次全部加载，而是按需加载。
