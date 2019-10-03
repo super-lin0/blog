@@ -16,6 +16,8 @@ comments: true
 
 <!-- more -->
 
+![](https://raw.githubusercontent.com/super-lin0/pic/master/img/20191003100729.png)
+
 ## 前言
 
 本文主要介绍一些优化 Webpack 配置的方法，目的是让打包的速度更快，输出的资源更小。本文将会包含以下内容：
@@ -27,8 +29,6 @@ comments: true
 - 动态链接库思想与 DLLPlugin
 
 - 死代码检测与 tree shaking
-
-![](https://raw.githubusercontent.com/super-lin0/pic/master/img/20191003100729.png)
 
 ## HappyPack
 
