@@ -28,6 +28,8 @@ comments: true
 
 - 死代码检测与 tree shaking
 
+![](https://raw.githubusercontent.com/super-lin0/pic/master/img/20191003100729.png)
+
 ## HappyPack
 
 HappyPack 是一个通过多线程来提升 Webpack 打包速度的工具。
