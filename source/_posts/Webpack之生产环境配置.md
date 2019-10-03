@@ -16,6 +16,8 @@ comments: true
 
 <!-- more -->
 
+![](https://raw.githubusercontent.com/super-lin0/pic/master/img/20191003160517.png)
+
 ## 前言
 
 在生产环境（线上环境），资源打包将会遇到很多新的问题。本文将会包含以下内容
